@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Ekka - Admin Dashboard HTML Template.">
+
+		<title>Ekka - Admin Dashboard HTML Template.</title>
+		
+		<!-- GOOGLE FONTS -->
+		
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+		<link href="https://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css" rel="stylesheet" />
+		
+		<!-- Ekka CSS -->
+		<link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+		
+		<!-- FAVICON -->
+		<link href="assets/img/favicon.png" rel="shortcut icon" />
+	</head>
+	
+	<body class="sign-inup" id="body">
+        
+        @yield('content')
+		
+		<!-- Ekka Custom -->	
+	</body>
+</html>
